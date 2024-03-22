@@ -1,6 +1,6 @@
 const ws = require("ws");
 
-const ADDRESS = "192.168.1.1:3000";
+const ADDRESS = "ws://192.168.1.1:3000";
 
 let clients = [];
 let wsClient;
